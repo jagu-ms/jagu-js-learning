@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<head>
+   <title>javascript</title>
+   <meta charset="utf-8">
+   <meta description="we are learning javascript">
+   <link rel="stylesheet" href="index.css" >
+   
+</head>
+<body class="bg center white">
+    
+    <header>
+        <h1 id="h1"></h1>
+
+
+    </header>
+    <nav>
+        <p>well come to your first learning js page </p>
+
+    </nav>
+    <section>
+        <div>
+            <!-- js output -->
+        <button type="button"  onclick="window.alert(5+8)">5+8</button>
+        <!-- syntax -->
+        <h2>learning syntax</h2>
+
+        <p id="computation"></p>
+        <p id="sensetive"></p>
+        <p id="if"></p>
+        </div>
+        <!-- variables -->
+        <div>
+            <h2>variables</h2>
+            <p id="work-days"></p>
+        </div>
+        <div>
+            <h2>data types</h2>
+            <h3>primitive types</h3>
+            <p id="strings"></p>
+            <p id="boolean"></p>
+            <p id="Null"></p>
+            <p id="undefined"></p>
+            <p id="numbers"></p>
+        </div>
+        <div>
+            <h3>reference types</h3>
+            <h4>arrays</h4>
+            <p id="arrays"></p>
+        </div>
+          
+        <div>
+            <h2>concatenations</h2>
+            <p id="concat"></p>
+
+        </div>
+        <div>
+            <h2>conversions</h2>
+            <p id="booleanConv"></p>
+            <p id="ageConv"></p>
+            <p id="stringConv"></p>
+
+        </div>
+
+        <div>
+            <h2>arithmetic operators</h2>
+            <h3>reminder</h3>
+            <p id="reminder"></p>
+            <p id="increment"></p>
+            <p id="decrement"></p>
+        </div>
+        
+        <div>
+            <h2>comparis on operators</h2>
+            <p id="comp1"></p>
+            <p id="comp2"></p>
+            <p id="comp3"></p>
+            <p id="comp4"></p>
+            <p id="comp5"></p>
+            <p id="comp6"></p>
+        </div>
+        <div>
+            <h2>ternary</h2>
+            <button onclick="ternary()">ternary?</button>
+        </div>
+        <div>
+            <h2>switches</h2>
+            <p>operator type elements</p>
+            <button onclick="switches()">show</button>
+        </div>
+        <div>
+            <h2>loops</h2>
+            <h3>while loop</h3>
+            <p>with continue and break  <br> let's remember how much calories did we eat </p>
+            <button onclick="whileF()">let's</button>
+
+            <h3>do while</h3>
+            <p>let's gess what's the difference between while and do </p>
+            <button onclick="doWhileF()">show</button>
+
+            <h3>mainloop and childloop</h3>
+            <p>doing some titles in the console with loops and one click</p>
+            <button onclick="titles() ">Do</button>
+
+            <h3>for</h3>
+            <p>for inderstanding the for loop , a sentence will repeat 5 times</p>
+            <button onclick="forF()">show</button>
+
+            <h3>loops on arrays</h3>
+            <p>a small ex on loops get acces to arrays</p>
+            <p id="loop-array0"></p>
+            <p id="loop-array1"></p>
+            <p id="loop-array2"></p>
+            <p id="loop-array3"></p>
+            <button ondblclick="loopArray()">show</button>
+
+            <h3>for in </h3>
+            <p>i recommend some habits for you</p>
+            <p id="reading"></p>
+            <p id="sport"></p>
+            <p id="learnig"></p>
+            <p id="religionPracticing"></p>
+            <button onclick="forIn()">show</button>
+
+            <h3>for of</h3>
+            <p>you can do a review on loops types </p>
+            <p id="loop0"></p>
+            <p id="loop1"></p>
+            <p id="loop2"></p>
+            <p id="loop3"></p>
+            <p id="loop4"></p>
+            <button onclick="forOf() ">show</button>
+
+        </div>
+        <div class="functions">
+            <h2>functions</h2>
+
+            <h3>parameters and return</h3>
+            <P>you get an idea about how much calories that you need </P>
+            <button onclick="paraReturn() ">show</button>
+
+            <h3> functions expression and declaration </h3>
+            <p>let's figure out the difference</p>
+            <button onclick="expressionFunc() ">show</button>
+
+            <h3>arrow functions</h3>
+            <p>go to the js folder to see a few examples for the arrow functions syntax , just on the previous example </p>
+            
+            <h3>rest parameter and arguments</h3>
+            <p> go collect a few numbers in the console</p>
+            <button onclick="restParameter() ">collect</button>
+
+            <h3>setTimeout and setInterval</h3>
+            <p>let's start the stopwatch</p>
+            <p id="stopwatch"></p>
+            <button onclick="stopwatch()">start</button>
+            
+        </div> 
+        <div class="arrays">
+            <h2>arrays</h2>
+            
+            <p id="arrayFunc">  let's send some masseges</p>
+
+            <fieldset>
+                <legend>chat</legend>
+                <input type="text" id="chat-input"><br>
+                <textarea name=""  id="messages-area" cols="30" rows="10"></textarea><br>
+                <h3>add in END </h3>
+                <button  style="margin: 5px ;" onclick="addInEnd()">send</button>
+                <h3>add in TOP</h3>
+                <button  style="margin: 5px ;" onclick="addInBeginning()">add</button>
+                <h3>Remove form the TOP</h3>
+                <button  style="margin: 5px ;" onclick="removeTop()">remove</button>
+                <h3>Remove form the END</h3>
+                <button  style="margin: 5px ;" onclick="removeEnd ()">remove</button>
+                
+                <h3>Editing</h3>
+                <input type="text" class="edit_input" id="message-num" placeholder="message-num"><br>
+                <input type="text" class="edit_input" id="deleting-messages-num" placeholder="deleting-messages-num"><br>
+                <input type="text" class="edit_input" id="new-messages" placeholder="new-messages"><br>
+                <button  style="margin: 5px ;" onclick="editing()">remove</button>
+
+                <h3>searching</h3>
+                <p>searching on the console for a few words in searchChat array</p>
+                <input type="text" id="searched-massege" placeholder="search for a massege"><br>
+                <button  style="margin: 5px ;" onclick="search()">search</button>
+            </fieldset>
+        </div>
+        <div class="objects">
+            <h2>objects</h2>
+
+            <h3>what can objects containe</h3>
+            <p id="objects"></p>
+
+            <h3>constructor</h3>
+            <p>see a few constructed objects in the console</p>
+            <button onclick="obConstrF()">show</button>
+
+            <h3>add and delete</h3>
+            <p>delete or add then show</p>
+            <button onclick="objectAddF()" style="margin-top: 5px;">add</button><br>
+            <button onclick="objectDeleteF()" style="margin-top: 5px;">delete</button><br>
+            <textarea name="" id="message-object" style="color: white; background-color: black;" cols="30" rows="10"></textarea><br>
+
+            <h3>abstraction</h3>
+            <p> it also contain the <span style="color: blueviolet;">getters and setters</span> example <br>try the code in the console and it is written in JS folder</p>
+
+            <h3>prototype</h3>
+            <p>the prototype is the father of all object wich when you want to gain some memory , define the functions or the properties in it , so that you can just call them</p>
+        </div>
+
+        <div class="classes">
+            <h2>classes</h2>
+            <p>all classes examples are in js folder with you can excute it just on the console</p>
+
+            <h3>static classes</h3>
+            <p id="sum-p">try the statics classes in the console</p>
+
+            <h3>getters and setters </h3>
+            <p>it is easier to work with getters and setters in a classe</p>
+
+            <h3>inheritance</h3>
+            <p>you cam minimalist you code with using the inhertance in the classes</p>
+
+            <h3>method overrinding</h3>
+            <p>inheritance of functions from father to son</p>
+
+            <h3>instanceof</h3>
+            <p>to make sur that the object coranExcution is the Coran class son => coranExcution instanceof Coran = true </p>
+
+        </div>
+        <div class="errors-handling">
+            <h2>Errors Handling</h2>
+            <p>there are 3 types of errors</p>
+            
+            <h3>try catch and throw error</h3>
+            <p>you can try then catch the error and put out you special error that you created it </p>
+
+            <h3>callbacks</h3>
+            <p>for accessing the programme time excution Postponement and submission</p>
+
+            <h3>promise</h3>
+            <p>the promise example is in the <a href="file:///F:/programming/JA%20GU%20APPs/learning%20pages%20-%20Copy%202/food%20types/index.html" style="color: black;">food types </a>calories calculator</p>
+            <p>try it in js folder with the "wait" function, it work just with the folder excution , you can't excute it from the console</p>
+            
+            <h3>async and await</h3>
+            <p>try it in the console with "asyncAwaitEx" function, you can excute it from the console and it works just like "promise"</p>
+            
+
+        </div>
+
+
+    </section>
+    <footer>
+        <p>all rights reserved © 2020 /2021</p>
+        <p>javascript is created by mohammed seddiki</p>
+    </footer>
+
+      <!-- the best place to link js files -->
+      <script src="index.js"></script>
+     
+</body>

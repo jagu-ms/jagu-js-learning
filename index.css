@@ -1,0 +1,40 @@
+.bg {
+    background-image: url(./img/salamit.jpeg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.center {
+    text-align: center;
+}
+nav {
+    background-color: red;
+    color: black;
+}
+button {
+    color: red;
+    background-color: black;
+}
+.white {
+    color: white;
+}
+.functions {
+    background-color: rgba(0, 0, 0, 0.178);
+    
+}
+.objects {
+    background-color: rgba(53, 28, 195, 0.219);
+    
+}
+.arrays {
+    background-color: rgba(44, 180, 101, 0.212);
+    
+}
+
+#messages-area {
+    background-color: rgba(32, 21, 6, 0.445);
+    margin-top: 20px;
+    color: antiquewhite;
+}
+.edit_input {
+    margin-top: 5px;
+}
